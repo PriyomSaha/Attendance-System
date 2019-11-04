@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 15px arial;
+}
+
+#navbar {
+  padding: 5px;
+}
+
+#navbar[align=center]>* {
+  display: block;
+  cursor: pointer;
+  width: 95%;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  margin:10% 0;
+  padding :1ex;
+}
+
+#navbar #div1 {
+  background: #66d;
+}
+
+#navbar #div2 {
+  background: #00897B;
+}
+
+#navbar #div3 {
+  background: #673AB7;
+}
+
+#navbar #div4 {
+  background: #d66;
+}
+/* #navbar #div5 {
+  background: black;
+} */
+
+.noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  width: 300px;
+  background: #333;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 300px;
+  bottom: 0;
+  background: #ccc;
+  overflow: auto;
+  padding : 10px 25px;
+}
+
+.sort-placer {
+  border: 2px solid orange;
+}
+.custom
+{
+  background-color: #3F51B5;
+  padding:2ex;
+  margin:1%;
+  color:white;
+  text-align:center;
+}
+#detect-face
+{
+  background-color:#212121;
+  color: white;
+  padding:2%;
+  text-align:center;
+  margin-bottom: -10%;
+  font-size: 1.5em;
+}
+/* #cancel{
+  background-color: #008CBA;
+  border-radius: 10px solid #008CBA;
+}
+#save{
+  background-color: #4caf50;
+  margin-left:5%;
+  margin-right: 10%;
+
+} */
