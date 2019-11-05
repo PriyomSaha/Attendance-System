@@ -12,6 +12,7 @@ $(document).ready(function() {
 
   $(".canvas, .canvas *").droppable({
     accept: ".add-element",
+    accept:".custom",
     drop: function(event, ui) {
       if (!ui.draggable.hasClass("dropped"))
         $(this).append($(ui.draggable).clone().removeClass("ui-draggable").removeClass("dropped"));

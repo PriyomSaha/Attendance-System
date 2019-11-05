@@ -19,19 +19,19 @@ body {
   padding :1ex;
 }
 
-#navbar #div1 {
+#div1 {
   background: #66d;
 }
 
-#navbar #div2 {
+#div2 {
   background: #00897B;
 }
 
-#navbar #div3 {
+#div3 {
   background: #673AB7;
 }
 
-#navbar #div4 {
+#div4 {
   background: #d66;
 }
 /* #navbar #div5 {
@@ -53,6 +53,7 @@ body {
   bottom:0;
   width: 300px;
   background: #333;
+  vertical-align: middle;
 }
 
 .canvas {
@@ -71,7 +72,6 @@ body {
 }
 .custom
 {
-  background-color: #3F51B5;
   padding:2ex;
   margin:1%;
   color:white;
@@ -96,3 +96,7 @@ body {
   margin-right: 10%;
 
 } */
+.buttons
+{
+  text-align: center;
+}
