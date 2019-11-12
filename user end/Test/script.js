@@ -41,7 +41,7 @@ $(document).ready(function(){
       var top = node.position.top;
       var left = node.position.left
       console.log(top,left);
-      $(this).append($(ui.draggable).clone().removeClass("div").addClass("custom")).sortable();
+      $(this).append($(ui.draggable).clone().removeClass("div").addClass("custom").resizable());
       $(".custom").draggable();
     }
   });
